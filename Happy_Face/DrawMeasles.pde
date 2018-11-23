@@ -1,7 +1,8 @@
 void drawMeasles() {
-  
-fill(green);
+
+  fill(green);
   noStroke();
-  ellipse(random(width),random(height),width*1/75,width*1/75);//measles
+  ellipse(measlesX, measlesY, measlesDiameter, measlesDiameter);//measles
   stroke(1);
+  fill(#FFFFFF);
 }
