@@ -34,7 +34,7 @@ void setup() {
 void draw() {
 
   //Aritmetic First
-  measlesArithmetic();
+  measlesArithmeticDraw();
 
 
   //ellipse(width*1/4, height*1/4,width*1/15,width*1/15);//measlesize
